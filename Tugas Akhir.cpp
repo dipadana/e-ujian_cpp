@@ -136,6 +136,7 @@ int main(){
 	//Bagian akhir program
 	cout<<poin(jumlah);
 	
+	//Logika untuk direktori file
 	char formatfile[]=".txt";
 	char namadirektori[]="D://";
 	strcat(namadirektori,"hasil_");
@@ -146,6 +147,7 @@ int main(){
 	strcat(namadirektori,kelas);
 	strcat(namadirektori,formatfile);
 	
+	//Logika untuk mencetak (operasi file)
 	ofstream hasilJawaban;
 	hasilJawaban.open(namadirektori, ios::app);
 	hasilJawaban<<"\n\nNilai Hasil Ujian Elektronik TIK\n"<<endl;
