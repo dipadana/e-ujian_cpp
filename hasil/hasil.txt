@@ -1,0 +1,77 @@
+
+Nilai Hasil Ujian Elektronik TIK
+
+Nama Peserta 	: Lein
+Nomor Absen	: 32
+Kelas		: si
+
+Jawaban   Kunci
+   a        a
+   a        a
+   a        b
+   a        a
+   a        c
+   a        c
+   a        a
+   a        b
+   a        c
+   a        b
+
+Nilai ujian anda adalah : 40 point, TIDAK LULUS, Nilai anda Kurang! (D)
+Nilai Hasil Ujian Elektronik TIK
+
+Nama Peserta 	: Dipadana
+Nomor Absen	: 35
+Kelas		: SI
+
+Jawaban   Kunci
+   a        a
+   a        a
+   a        b
+   a        a
+   a        c
+   a        c
+   a        a
+   a        b
+   a        c
+   a        b
+
+Nilai ujian anda adalah : 40 point, TIDAK LULUS, Nilai anda Kurang! (D)
+Nilai Hasil Ujian Elektronik TIK
+
+Nama Peserta 	: Dekadi
+Nomor Absen	: 23
+Kelas		: SI
+
+Jawaban   Kunci
+   b        a
+   b        a
+   b        b
+   b        a
+   b        c
+   b        c
+   b        a
+   b        b
+   b        c
+   b        b
+
+Nilai ujian anda adalah : 30 point, TIDAK LULUS, Nilai anda Kurang! (D)
+Nilai Hasil Ujian Elektronik TIK
+
+Nama Peserta 	: yoga
+Nomor Absen	: 4
+Kelas		: 9
+
+Jawaban   Kunci
+   a        a
+   a        a
+   a        b
+   a        a
+   a        c
+   a        c
+   a        a
+   a        b
+   a        c
+   b        b
+
+Nilai ujian anda adalah : 50 point, TIDAK LULUS, Nilai anda Kurang! (D)
