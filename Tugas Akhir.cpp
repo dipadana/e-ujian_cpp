@@ -1,9 +1,10 @@
 //DIBUAT OLEH DIPADANA_SIPAGI_1801010035_21JANUARI2019_11.05WITA
 //baca file README.txt terlebih dahulu!
-//ver.1.1
+//ver.1.2
 
 #include <iostream>
 #include <fstream>
+#include <string.h>
 using namespace std;
 
 int pengecek(char a, char b){
@@ -135,10 +136,19 @@ int main(){
 	//Bagian akhir program
 	cout<<poin(jumlah);
 	
+	char formatfile[]=".txt";
+	char namadirektori[]="D://";
+	strcat(namadirektori,"hasil_");
+	strcat(namadirektori,nama);
+	strcat(namadirektori,"_");
+	strcat(namadirektori,nomor_absen);
+	strcat(namadirektori,"_");
+	strcat(namadirektori,kelas);
+	strcat(namadirektori,formatfile);
 	
 	ofstream hasilJawaban;
-	hasilJawaban.open("D://Tugas Akhir DDP/hasil/hasil.txt", ios::app);
-	hasilJawaban<<"\nNilai Hasil Ujian Elektronik TIK\n"<<endl;
+	hasilJawaban.open(namadirektori, ios::app);
+	hasilJawaban<<"\n\nNilai Hasil Ujian Elektronik TIK\n"<<endl;
 	hasilJawaban<<"Nama Peserta 	: "<<nama<<endl;
 	hasilJawaban<<"Nomor Absen	: "<<nomor_absen<<endl;
 	hasilJawaban<<"Kelas		: "<<kelas<<"\n"<<endl;
@@ -147,16 +157,17 @@ int main(){
 	hasilJawaban<<"   "<<jawaban[i]<<"        "<<kunci[i]<<"\n";}
 	hasilJawaban<<"\nNilai ujian anda adalah : "<<jumlah*10<<" point";
 	if(jumlah>=9){
-		hasilJawaban<<", LULUS dengan predikat nilai Sempurna! (A)";
+		hasilJawaban<<", LULUS dengan predikat nilai Sempurna! (A)\n";
 	}else if(jumlah>=8){
-		hasilJawaban<<", LULUS dengan predikat nilai Baik! (B)";
+		hasilJawaban<<", LULUS dengan predikat nilai Baik! (B)\n";
 	}else if(jumlah==7){
-		hasilJawaban<<", LULUS dengan predikat nilai Cukup! (C)";
+		hasilJawaban<<", LULUS dengan predikat nilai Cukup! (C)\n";
 	}else if(jumlah<=6){
-		hasilJawaban<<", TIDAK LULUS, Nilai anda Kurang! (D)";
+		hasilJawaban<<", TIDAK LULUS, Nilai anda Kurang! (D)\n";
 	}else{
 		hasilJawaban<<"ERROR";
 	}
+	hasilJawaban<<"----------------------------------------------------------------------";
 	hasilJawaban.close();
 	cout<<"\n *Hasil nilai ujian anda telah dicetak*\n";
 	
